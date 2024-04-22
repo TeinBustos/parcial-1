@@ -1,0 +1,86 @@
+/*////////////////////////////*/
+/*        TAMAÑO IMAGENES     */
+/*////////////////////////////*/
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.imagenes {
+    height: 300px;
+    width: 300px;
+}
+/*////////////////////////////*/
+/* JUSTIFICACIÓN DE CONTENIDO */
+/*////////////////////////////*/
+
+.cont-imagenes {
+    display: grid;
+    justify-content: center;
+}
+
+.cont-logo {
+    display: flex;
+    justify-content: center;
+}
+
+/*////////////////////////////*/
+/*           COLORES          */
+/*////////////////////////////*/
+
+.col-red {
+    color: red;
+}
+
+.col-blue {
+    color: blue;
+}
+
+.col-orange {
+    color: orange;
+}
+
+.col-violet {
+    color: violet;
+}
+
+/*////////////////////////////*/
+/*         TAMAÑO LETRA       */
+/*////////////////////////////*/
+
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.large {
+    font-size: large;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/*////////////////////////////*/
+/*        BORDES TABLA        */
+/*////////////////////////////*/
+
+.contenedor-tabla th, .contenedor-tabla td {
+    border: solid 1px black;
+}
+
+
+/*////////////////////////////*/
+/*   MARGENES Y ESPACIADO     */
+/*////////////////////////////*/
+label {
+    margin: 10px;
+}
+.cont-imagenes {
+    gap: 30px;
+    margin-bottom: 30px;
+}
